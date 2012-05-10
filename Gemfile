@@ -36,6 +36,7 @@ group :test do
 end
 
 group :development, :test do
+  gem 'rspec-rails', '~> 2'
   gem 'foreman', '~> 0.40'
   gem 'sqlite3', '~> 1', platform: [:ruby, :mswin, :mingw]
   gem 'faker', '~> 1'
